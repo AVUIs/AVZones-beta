@@ -13,6 +13,6 @@ By Nuno Correia:
 http://www.nunocorreia.com
 
 # Dependencies
-Built with openFrameworks.
+Built with openFrameworks: http://openframeworks.cc
 
 Requires ofxmaxim addon for openFrameworks: https://github.com/micknoise/Maximilian
