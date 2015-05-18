@@ -1,7 +1,5 @@
 # AVZ
-AudioVisual Zones
-
-Audiovisual sequencer for iOS built with openFrameworks + Maximilian
+AudioVisual Zones - audiovisual sequencer for iOS built with openFrameworks + Maximilian
 
 
 You will need soundfiles and add their names to Playlist.cpp
