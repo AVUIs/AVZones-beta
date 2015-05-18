@@ -1,4 +1,6 @@
 # AVZ
+AudioVisual Zones
+
 Audiovisual sequencer for iOS built with openFrameworks + Maximilian
 
 
