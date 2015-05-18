@@ -11,4 +11,4 @@ By Nuno Correia:
 http://www.nunocorreia.com
 
 # Dependencies
-Requires ofxmaxim addon for openFrameworks: https://github.com/micknoise/Maximilian/tree/master/ofxMaxim
+Requires ofxmaxim addon for openFrameworks: https://github.com/micknoise/Maximilian
