@@ -1,3 +1,5 @@
+![AVZones](https://github.com/AVUIs/AVZones/blob/master/AVZones.jpg "AVZones")
+
 # AVZones
 AudioVisual Zones - audiovisual sequencer for iOS built with openFrameworks + Maximilian
 
