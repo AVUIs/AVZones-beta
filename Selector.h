@@ -9,6 +9,7 @@ public:
     void setup(ofRectangle rect, int index);
     void draw();
     
+    ofTrueTypeFont font;
     ofRectangle rects[9];
     Playlist list;
     bool selecting;

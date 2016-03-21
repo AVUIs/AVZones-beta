@@ -13,6 +13,7 @@ void Sampler::setup(int bufferSize, int index){
     amplitude=0.5;
     touched=false;
     looping=false;
+    recording=false;
     //delay
     size = 20000;
     feedback = 0.75;
@@ -29,7 +30,7 @@ void Sampler::setup(int bufferSize, int index){
 void Sampler::trigger(float x, float y, int col){
     sampleTrigger=1;
     speed=ofMap(x,zone.rects[col][1].x,zone.rects[col][1].x+zone.rects[col][1].width,-2,2);
-    amplitude=ofMap(y,zone.rects[col][1].y,zone.rects[col][1].y+zone.rects[col][1].height,1,0);
+    amplitude=ofMap(y,zone.rects[col][1].y,zone.rects[col][1].y+zone.rects[col][1].height,1,0.25);
 }
 
 void Sampler::filter(float x, float y){

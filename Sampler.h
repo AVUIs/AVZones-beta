@@ -36,6 +36,7 @@ class Sampler {
         double amplitude;
         bool touched;
         bool looping;
+        bool recording;
         int myBufferSize;
         int sampleTrigger;
         int index;

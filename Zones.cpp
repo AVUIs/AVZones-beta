@@ -14,10 +14,14 @@ void Zones::setup(){
 }
 
 void Zones::draw(){
-    ofSetColor(200);
-    ofLine(col[1].x,0,col[1].x,screenH);
-    ofLine(col[2].x,0,col[2].x,screenH);
-    ofSetColor(100);
-    ofLine(0,row[1].y,screenW,row[1].y);
-    ofLine(0,row[2].y,screenW,row[2].y);
+    for(int i=1;i<=2;i++){
+        for(int k=0;k<=2;k++){
+            ofSetColor(200);
+            ofLine(col[i].x,row[k].y,col[i].x,row[k].y+row[k].height*0.25);
+            ofLine(col[i].x,row[k].y+row[k].height*0.75,col[i].x,row[k].y+row[k].height);
+            ofSetColor(100);
+            ofLine(col[k].x,row[i].y,col[k].x+col[k].width*0.25,row[i].y);
+            ofLine(col[k].x+col[k].width*0.75,row[i].y,col[k].x+col[k].width,row[i].y);
+        }
+    }
 }

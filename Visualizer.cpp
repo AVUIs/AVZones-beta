@@ -17,8 +17,8 @@ void Visualizer::draw(float * buffer, float amplitude){
     //wave
     ofPushStyle();
     ofFill();
-    ofSetColor(red,0,255, amplitude*255);
-    //ofSetLineWidth(1);
+    //ofSetColor(red,0,255, amplitude*255);
+    ofSetColor(red,0,255);
     float y1 = ofGetHeight() * 0.5;
     for(int i=0; i<myBufferSize; i++){
         float p = i / (float)(myBufferSize);

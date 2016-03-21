@@ -19,7 +19,7 @@ void Cursor::update(float posX, float posY){
 }
 
 void Cursor::draw(int color){
-    float size=10;
+    float size=20;
     ofPushStyle();
     ofSetHexColor(color);
     ofLine(x-size,y,x+size,y);

@@ -12,6 +12,7 @@
 #include "Selector.h"
 #include "Visualizer.h"
 #include "Zones.h"
+#include "Pattern.h"
 
 
 class ofApp : public ofxiOSApp{
@@ -38,12 +39,13 @@ class ofApp : public ofxiOSApp{
     
     int bufferSize;
     vector <ofPoint> touches;
-
+    
     Cursor filCursor[3], delCursor[3], samCursor[3];
     Sampler sam[3];
     Selector sel[3];
     Visualizer viz[3];
     Zones zone;
+    Pattern pat[3];
 };
 
 
