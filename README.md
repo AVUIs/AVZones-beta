@@ -12,13 +12,13 @@ http://avuis.goldsmithsdigital.com
 
 # Instructions
 
-Row 1: Delay (shift: menu)
-Row 2: Looper
-Row 3: Filter (shift: sequencer)
+- Row 1: Delay (shift: menu)
+- Row 2: Looper
+- Row 3: Filter (shift: sequencer)
 
-Tap (row 2), move (rows 1,3): change x/y
-2-finger tap: toggle on/off
-Double tap: shift (or choose menu item)
+- Tap (row 2), move (rows 1,3): change x/y
+- 2-finger tap: toggle on/off
+- Double tap: shift (or choose menu item)
 
 # Sound Files
 You will need sound files, add them to the bin/data folder, and add their names to Playlist.cpp: https://github.com/AVUIs/AVZones/blob/master/Playlist.cpp
