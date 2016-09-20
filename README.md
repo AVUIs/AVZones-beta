@@ -3,18 +3,6 @@
 # AVZones
 AudioVisual Zones - audiovisual sequencer for iOS built with openFrameworks + Maximilian
 
-More info/acknowledgements:
-http://www.avzones.org
-
-By Nuno Correia:
-http://www.nunocorreia.com
-
-Part of the AVUIs project:
-http://avuis.goldsmithsdigital.com
-
-Video:
-https://vimeo.com/144976072
-
 # Instructions
 
 - Row 1: Delay (shift: menu)
